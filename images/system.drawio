@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" modified="2023-08-27T23:26:34.576Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/116.0" etag="icUmoNF0AQ3qswKY-u8f" version="21.6.9" type="device">
+  <diagram name="Page-1" id="pbcAwKesPUVN0Z2e2OVf">
+    <mxGraphModel dx="855" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="9MgS2yJiQkZ0rNWUdtvz-1" target="9MgS2yJiQkZ0rNWUdtvz-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-1" value="&lt;div&gt;nRF52832&lt;/div&gt;&lt;div&gt;BLE MCU&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-2" value="&lt;div&gt;CMT2219A&lt;/div&gt;&lt;div&gt;SubGHz Receiver&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=classic;startFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="9MgS2yJiQkZ0rNWUdtvz-2" target="9MgS2yJiQkZ0rNWUdtvz-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-5" value="SPI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9MgS2yJiQkZ0rNWUdtvz-3">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;fillColor=#f8cecc;strokeColor=#b85450;exitX=1.015;exitY=0.663;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249.99999999999994" y="269.84999999999997" as="sourcePoint" />
+            <mxPoint x="358.2" y="270.07" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-9" value="Data OUT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9MgS2yJiQkZ0rNWUdtvz-8">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-11" value="UART" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-12" value="GPIO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="9MgS2yJiQkZ0rNWUdtvz-15" target="9MgS2yJiQkZ0rNWUdtvz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-15" value="&lt;div&gt;Outer LEDs&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/success-filloutline/64/idea-read-knowledge-light_bulb-thinking-128.png" vertex="1" parent="1">
+          <mxGeometry x="560" y="245" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-16" value="&lt;div&gt;Inner LEDs&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="9MgS2yJiQkZ0rNWUdtvz-17" target="9MgS2yJiQkZ0rNWUdtvz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-17" value="" style="image;html=1;image=img/lib/clip_art/telecommunication/Signal_tower_on_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="20" y="230" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-20" value="RF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="290" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="9MgS2yJiQkZ0rNWUdtvz-21" target="9MgS2yJiQkZ0rNWUdtvz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-21" value="" style="image;html=1;image=img/lib/clip_art/telecommunication/Signal_tower_on_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="410" y="120" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-22" value="BLE RF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="100" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-28" value="GPIO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="490" y="255" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-29" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/success-filloutline/64/idea-read-knowledge-light_bulb-thinking-128.png" vertex="1" parent="1">
+          <mxGeometry x="700" y="245" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="9MgS2yJiQkZ0rNWUdtvz-30" target="9MgS2yJiQkZ0rNWUdtvz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-34" value="I2C/IRQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9MgS2yJiQkZ0rNWUdtvz-31">
+          <mxGeometry x="-0.3554" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-30" value="IQS722x Cap Touch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-32" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;57.6ksps&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9MgS2yJiQkZ0rNWUdtvz-33" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;447.9 MHz&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
